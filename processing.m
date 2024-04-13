@@ -32,7 +32,7 @@ for h = 0:10
         
         t = gaussianPulse.Time;
         vals_pre = gaussianPulse.output';
-        vals = [vals_pre zeros(1,100000)]';
+        vals = [vals_pre zeros(1,10000)]';
         N = length(vals); 
         
         time = time2num(t);
